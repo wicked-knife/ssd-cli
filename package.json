@@ -1,0 +1,23 @@
+{
+  "name": "ssd-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "ssd": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wicked-knife/ssd-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wicked-knife/ssd-cli/issues"
+  },
+  "homepage": "https://github.com/wicked-knife/ssd-cli#readme"
+}
