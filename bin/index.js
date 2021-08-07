@@ -1,3 +1,6 @@
 #!/usr/bin/env node
+const lib = require('ssd-cli-lib')
 
-console.log('hello, ssd-cli');
+lib.hello('geraltfeng');
+
+console.log('hello, ssd-cli!!!');

@@ -2,6 +2,9 @@
   "name": "ssd-cli",
   "version": "1.0.0",
   "description": "",
+  "dependencies": {
+    "ssd-cli-lib": "^1.0.0"
+  },
   "bin": {
     "ssd": "bin/index.js"
   },
