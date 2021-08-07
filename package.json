@@ -1,9 +1,9 @@
 {
   "name": "ssd-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "dependencies": {
-    "ssd-cli-lib": "^1.0.0"
+    "ssd-cli-lib": "^1.0.1"
   },
   "bin": {
     "ssd": "bin/index.js"
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/wicked-knife/ssd-cli/issues"
   },
-  "homepage": "https://github.com/wicked-knife/ssd-cli#readme"
+  "homepage": "https://github.com/wicked-knife/ssd-cli#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.13"
+  }
 }

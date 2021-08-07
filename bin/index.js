@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 const lib = require('ssd-cli-lib')
 
-lib.hello('geraltfeng');
+const [command, option, param] = process.argv.slice(2)
 
-console.log('hello, ssd-cli!!!');
+if(command) {
+  if(lib[command]) {
+    lib[command]({option, param})
+  } else {
+    console.log('命令不存在');
+  }
+}
