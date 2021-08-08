@@ -2,6 +2,6 @@
 
 module.exports = {
   hello() {
-    console.log("hello from @ssd-cli/utils");
+    console.log("hello from @ssd-cli/utils ~");
   },
 };

@@ -25,6 +25,6 @@
     "lerna": "^4.0.0"
   },
   "dependencies": {
-    "@ssd-cli/core": "^1.0.1"
+    "@ssd-cli/core": "file:./packages/core/lib"
   }
 }
