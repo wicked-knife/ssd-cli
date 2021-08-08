@@ -23,5 +23,8 @@
   "devDependencies": {
     "@types/node": "^16.4.13",
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "@ssd-cli/core": "^1.0.1"
   }
 }
