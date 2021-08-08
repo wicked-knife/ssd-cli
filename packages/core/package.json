@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/wicked-knife/ssd-cli/issues"
+  },
+  "dependencies": {
+    "@ssd-cli/utils": "^1.0.1"
   }
 }
