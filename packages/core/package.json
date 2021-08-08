@@ -1,6 +1,6 @@
 {
   "name": "@ssd-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "ssd-cli core",
   "author": "wickde-knife <1353640486@qq.com>",
   "homepage": "https://github.com/wicked-knife/ssd-cli/tree/main/packages/core#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/wicked-knife/ssd-cli/issues"
   },
   "dependencies": {
-    "@ssd-cli/utils": "^1.0.1"
+    "@ssd-cli/utils": "^1.0.11"
   }
 }
