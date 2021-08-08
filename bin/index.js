@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
-const core = require('@ssd-cli/core')
+const core = require("@ssd-cli/core");
 
-core.init()
+try {
+  core.init();
+} catch (err) {
+  console.log(err);
+}
